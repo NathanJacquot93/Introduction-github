@@ -13,7 +13,7 @@ $array_values_section = getCsvValues($GLOBALS['_googlesheet_url'].'sheet=section
 <section id="<?=$section_id_name;?>" class="section " data-section="1" >
           <div class="sol" style="background-image:url(<?=picturePath($array_values_section[3][1]);?>);">
             <p class="sol"><?=$array_values_section[3][2];?></p>
-           
+           <h1>CREATION NOUVEAU TITRE</h1>
             <div class="confettis" style="background-image:url(<?=picturePath($array_values_section[1][1]);?>);">
             </div>
                 <div class="circle">
@@ -22,15 +22,15 @@ $array_values_section = getCsvValues($GLOBALS['_googlesheet_url'].'sheet=section
                      <p><?=$array_values_section[2][2];?></p>
                      <img src="<?=picturePath($array_values_section[2][3]);?>" alt="<?=$array_values_section[2][4];?>">
                  </div>
-          </div> 
-          
-        
+          </div>
+
+
           <img class="aspi" src="<?=picturePath($array_values_section[4][1]);?>" alt="">
 </section>
 
-<?php 
+<?php
 // Do Not Remove
-unset($array_values_section, $array_values_section_loop,$row,$section_id); 
+unset($array_values_section, $array_values_section_loop,$row,$section_id);
 
 // End Do Not Remove
 ?>
