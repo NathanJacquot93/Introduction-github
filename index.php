@@ -9,6 +9,8 @@ $array_values_section = getCsvValues($GLOBALS['_googlesheet_url'].'sheet=section
 // End Do Not Remove
 // Place your code below
 
+<p>JE VEUX VOIR SI JE PEUX ACTUALISER MON CONTENU</p>
+
 ?>
 <section id="<?=$section_id_name;?>" class="section " data-section="1" >
           <div class="sol" style="background-image:url(<?=picturePath($array_values_section[3][1]);?>);">
