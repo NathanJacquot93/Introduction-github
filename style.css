@@ -1,0 +1,23 @@
+/**** CREATION DE LA FEUILLE DE STYLE ****/
+/**** GLOBAL ****/
+
+body {
+    color: #2c5871;
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.clear {
+    clear: both
+}
+
+#page-container {
+    padding-top: 80px!important;
+}
+
+#main-content {
+    position: relative;
+}
